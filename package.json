@@ -1,0 +1,20 @@
+{
+  "name": "webpackchunksplic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "build:all": "npm run build && npm run build:dev",
+    "start": "webpack-dev-server   --color --hot --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
